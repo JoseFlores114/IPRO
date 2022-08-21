@@ -1,0 +1,12 @@
+Proceso Promedio
+	Escribir ' Ingresar la cantidad de datos:'
+	Leer num1
+	acum <- 0
+	Para i<-1 Hasta num1 Hacer
+		Escribir 'ingrese dato ',i,':'
+		Leer dato
+		acum <- acum+dato
+	FinPara
+	prom <- acum/num1
+	Escribir 'el promedio es: ',prom
+FinProceso
